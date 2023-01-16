@@ -57,7 +57,7 @@ export default function NavBar() {
                   className="nav-link"
                   onClick={closeExpanded}
                 >
-                  About Me
+                  Sobre mim
                 </Link>
               </Nav.Item>
               <Nav.Item>
@@ -68,7 +68,7 @@ export default function NavBar() {
                   className="nav-link"
                   onClick={closeExpanded}
                 >
-                  Skills
+                  Tecnologias
                 </Link>
               </Nav.Item>
               <Nav.Item>
@@ -79,7 +79,7 @@ export default function NavBar() {
                   className="nav-link"
                   onClick={closeExpanded}
                 >
-                  Projects
+                  Projetos
                 </Link>
               </Nav.Item>
               <Nav.Item>
@@ -90,12 +90,9 @@ export default function NavBar() {
                   className="nav-link"
                   onClick={closeExpanded}
                 >
-                  Contact
+                  Contato
                 </Link>
               </Nav.Item>
-            </Nav>
-            <Nav>
-              <ToggleSwitch />
             </Nav>
           </Navbar.Collapse>
         </Container>

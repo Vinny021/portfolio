@@ -51,7 +51,7 @@ export default function Projects() {
         <Container>
           <Container className="d-flex">
             <Title>
-              <h2>Projects</h2>
+              <h2>Projetos</h2>
               <div className="underline"></div>
             </Title>
           </Container>
@@ -63,7 +63,7 @@ export default function Projects() {
           {error && <h2 className="text-center">{error}</h2>}
           {!error && data.length === 0 && (
             <h2 className="text-center">
-              Oops, you do not have any GitHub projects yet...
+              Oops, sem referencias de projetos...
             </h2>
           )}
           {mainProjects.length !== 0 && (
@@ -98,7 +98,7 @@ export default function Projects() {
                         theme === "light" ? "outline-dark" : "outline-light"
                       }
                     >
-                      All <FaGithub /> Projects
+                      Todos <FaGithub /> Projetos
                     </Button>
                   </Link>
                 </Container>

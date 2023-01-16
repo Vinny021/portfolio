@@ -70,28 +70,28 @@ export default function ContactForm() {
     <>
       <Form noValidate validated={isValidated} onSubmit={handleSubmit}>
         <Form.Group className="mx-auto mb-3 form-group" controlId="name">
-          <Form.Label>Name</Form.Label>
-          <Form.Control required type="text" placeholder="Your name" />
+          <Form.Label>Nome</Form.Label>
+          <Form.Control required type="text" placeholder="Insira seu nome" />
           <Form.Control.Feedback type="invalid">
-            <h5>Name must be at least one character.</h5>
+            <h5>Indentifique-se por favor</h5>
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group className="mx-auto mb-3 form-group" controlId="email">
-          <Form.Label>Email address</Form.Label>
+          <Form.Label>Email</Form.Label>
           <Form.Control
             required
             pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
             placeholder="someone@something.com"
           />
           <Form.Control.Feedback type="invalid">
-            <h5>Please enter a valid email.</h5>
+            <h5>Digite um email válido.</h5>
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group className="mx-auto mb-3 form-group" controlId="message">
-          <Form.Label>Message</Form.Label>
-          <Form.Control required as="textarea" placeholder="Your message..." />
+          <Form.Label>Mensagem</Form.Label>
+          <Form.Control required as="textarea" placeholder="Sua mensage..." />
           <Form.Control.Feedback type="invalid">
-            <h5>Please provide a valid message.</h5>
+            <h5>Por favor forneça um corpo pro email.</h5>
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group className="mx-auto text-center form-group">
@@ -103,7 +103,7 @@ export default function ContactForm() {
               disabled={isProcessing}
               className="my-4"
             >
-              Submit{" "}
+              Enviar{" "}
               {isProcessing && (
                 <Spinner animation="border" variant="success" size="sm" />
               )}
@@ -116,7 +116,7 @@ export default function ContactForm() {
             onClose={() => setSuccess(false)}
             dismissible
           >
-            <Alert.Heading>Success! I will contact you soon.</Alert.Heading>
+            <Alert.Heading>Pronto! Obrigado pelo contato.</Alert.Heading>
           </Alert>
           <Alert
             show={danger}

@@ -60,6 +60,6 @@ export const allProjectsSlice = createSlice({
 
 export const selectIsLoading = (state) => state.allProjects.isLoading;
 export const selectError = (state) => state.allProjects.error;
-export const selectData = (state) => state.allProjects.data;
+export const selectData = () => [];
 
 export default allProjectsSlice.reducer;

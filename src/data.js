@@ -2,11 +2,13 @@
 import {
   FaHtml5,
   FaCss3Alt,
-  FaBootstrap,
   FaReact,
   FaGitAlt,
   FaGithubSquare,
   FaLink,
+  FaMobile,
+  FaPhp,
+  FaPython,
 } from "react-icons/fa";
 import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
 
@@ -24,7 +26,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "Vinny021";
 
 // Blog link icon (imported above)
 export const Blog = <FaLink />;
@@ -34,7 +36,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, Bootstrap, Redux, and the GitHub REST API.";
+  "Graduando em Sistemas da Informação na Universidade Federal de Itajubá, inserido no mercado de trabalho desde 2021.";
 
 /* Skills
  ************************************************************** 
@@ -58,8 +60,8 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <FaBootstrap className="display-4" />,
-    name: "BootStrap",
+    skill: <FaMobile className="display-4" />,
+    name: "Mobile",
   },
   {
     id: 5,
@@ -68,13 +70,13 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
+    skill: <FaPhp className="display-4" />,
+    name: "Php",
   },
   {
     id: 7,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
+    skill: <FaPython className="display-4" />,
+    name: "Python",
   },
   {
     id: 8,
@@ -110,4 +112,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/mgebvanq";

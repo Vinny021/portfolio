@@ -39,7 +39,7 @@ export default function StyledCard({ theme, image, name, description, url }) {
         </Card.Body>
         <Card.Footer className="text-center">
           <Card.Link href={url}>
-            {"View on GitHub "}
+            {"Visualizar "}
             <FaGithub />
           </Card.Link>
         </Card.Footer>
