@@ -60,6 +60,14 @@ export const allProjectsSlice = createSlice({
 
 export const selectIsLoading = (state) => state.allProjects.isLoading;
 export const selectError = (state) => state.allProjects.error;
-export const selectData = () => [];
+export const selectData = () => [
+  {
+    id: 1,
+    name: 'bin2dec',
+    image: 'https://m.media-amazon.com/images/I/51Sd5dfHqiL.png',
+    description: 'Conversor de números binarios para decimais dinamicamente',
+    html_url: 'https://vinny021.github.io/bin2dec-build/'
+  }
+];
 
 export default allProjectsSlice.reducer;
