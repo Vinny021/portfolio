@@ -67,6 +67,13 @@ export const selectData = () => [
     image: 'https://m.media-amazon.com/images/I/51Sd5dfHqiL.png',
     description: 'Conversor de números binarios para decimais dinamicamente',
     html_url: 'https://vinny021.github.io/bin2dec-build/'
+  },
+  {
+    id: 2,
+    name: 'border-radius-previewer',
+    image: 'https://cdn.dribbble.com/users/2044753/screenshots/5385836/media/1dc83d9753656435a17d1c6559c0df40.png?compress=1&resize=400x300',
+    description: 'Visualizador de borda arredondada com inputs dinâmicos',
+    html_url: 'https://vinny021.github.io/border-radius-previewer/'
   }
 ];
 
