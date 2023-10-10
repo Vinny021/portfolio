@@ -74,6 +74,13 @@ export const selectData = () => [
     image: 'https://cdn.dribbble.com/users/2044753/screenshots/5385836/media/1dc83d9753656435a17d1c6559c0df40.png?compress=1&resize=400x300',
     description: 'Visualizador de borda arredondada com inputs dinâmicos',
     html_url: 'https://vinny021.github.io/border-radius-previewer/'
+  },
+  {
+    id: 3,
+    name: 'csv2json',
+    image: 'https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/107182241/original/fb38683156fe42fbf4881dfd4f93bc72a81819b1/convert-json-files-to-csv-or-csv-to-json.png',
+    description: 'Conversor de Csv para Json',
+    html_url: 'https://vinny021.github.io/csv2json/'
   }
 ];
 
