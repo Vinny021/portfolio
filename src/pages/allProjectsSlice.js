@@ -81,6 +81,13 @@ export const selectData = () => [
     image: 'https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/107182241/original/fb38683156fe42fbf4881dfd4f93bc72a81819b1/convert-json-files-to-csv-or-csv-to-json.png',
     description: 'Conversor de Csv para Json',
     html_url: 'https://vinny021.github.io/csv2json/'
+  },
+  {
+    id: 4,
+    name: 'calculator',
+    image: 'https://vectips.com/wp-content/uploads/2019/06/tutorial-preview-large.png',
+    description: 'Calculadora Web Funcional',
+    html_url: 'https://vinny021.github.io/calculator/'
   }
 ];
 
